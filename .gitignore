@@ -97,3 +97,7 @@ application-secrets.yml
 secrets.json
 *.properties
 *.key
+
+# AI Data & Engine - Do not track
+/yolov5/
+/recycle-1/
