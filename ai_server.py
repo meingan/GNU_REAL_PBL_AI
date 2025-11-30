@@ -30,7 +30,7 @@ print(f"AI 모델 로드 완료. 입력 크기: ({input_height}, {input_width})"
 # ------------------------------------
 
 # --- (2) data.yaml과 100% 일치하는 정답지 ---
-class_names = ['can', 'glass', 'paperpack', 'plastic'] 
+class_names = ['can', 'general_waste', 'glass', 'paperpack', 'plastic', 'vinyl'] 
 num_classes = len(class_names)
 # ------------------------------------
 
